@@ -9,3 +9,4 @@ for f in os.listdir('.'):
         i = enhancer.enhance(1.5)
         img = i.resize(size_256, Image.ANTIALIAS)
         img.save('Clean_darth vader/{}_clean{}'.format(fn, fext))
+        
